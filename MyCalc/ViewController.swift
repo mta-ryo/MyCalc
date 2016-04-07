@@ -16,6 +16,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
+    
     @IBAction func restart(segue: UIStoryboardSegue){
         priceField.text = "0"
     }
